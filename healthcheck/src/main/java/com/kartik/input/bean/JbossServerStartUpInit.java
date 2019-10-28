@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.kartik.input.bean;
+
+/**
+ * @author kmandal
+ *
+ */
+public class JbossServerStartUpInit {
+	
+	private String path;
+
+	public String getPath() {
+		return path;
+	}
+
+	public void setPath(String path) {
+		this.path = path;
+	}
+	
+
+}
