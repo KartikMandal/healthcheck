@@ -15,10 +15,10 @@ public class Demo {
 		System.out.println("===============Start Ldap====================");
 		LdapInit ldapInit=new LdapInit();
 		ldapInit.setInitialContextfactory("com.sun.jndi.ldap.LdapCtxFactory");
-		ldapInit.setPrincipal("sc9-adc-pub.corp.yodlee.com");
-		//ldapInit.setPrincipal("corp.yodlee.com");
+		ldapInit.setPrincipal("sc9-adc-pub.corp.kartik.com");
+		//ldapInit.setPrincipal("corp.kartik.com");
 		ldapInit.setSecurityAuth("configmanagertool");
-		ldapInit.setSecurityCredential("Yodlee@123");
+		ldapInit.setSecurityCredential("abc@123");
 		ldapInit.setUrl("ldaps://192.168.227.46:636");
 		//ldapInit.setUrl("ldaps://192.168.228.45:636");
 		ResponseStatus dd=iHealth.getLdapHelath(ldapInit);
